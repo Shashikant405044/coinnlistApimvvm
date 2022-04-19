@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/url"
+        android:layout_margin="10dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:textSize="22sp"
+                android:text="ID  : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_marginStart="20dp"
+                android:textSize="22sp"
+                android:text="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:text="Price  : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:text="234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:text="Age  : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:text="54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:text="Name  : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+
+            android:id="@+id/name"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:text="Shashikant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:text="History  : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/history"
+
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:text="Whatever Story"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:text="Years  : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:text="2022"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
