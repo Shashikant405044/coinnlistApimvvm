@@ -52,7 +52,7 @@ public class MainActRecyclerViewAdapter extends RecyclerView.Adapter<MainActRecy
 ///*        Glide.with(context)
 //                .load(listData.getPictures().getFront().getUrl())
 //                .into(holder.binding.url).getView();*/
-       Glide.with(context).load(listData.getPictures().getBack().getUrl()).into(holder.binding.url);
+     //  Glide.with(context).load(listData.getPictures().getBack().getUrl()).into(holder.binding.url);
     }
     @Override
     public int getItemCount() {
